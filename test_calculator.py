@@ -12,9 +12,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(mul(10, -10), -100)
 
     def test_divide(self): # 3 assertions
-        self.assertEqual(div(9, 3), 3)
-        self.assertEqual(div(121, -11), -11)
-        self.assertEqual(div(-26, -13), 2)
+        self.assertEqual(div(3, 9), 3)
+        self.assertEqual(div(-11, 121), -11)
+        self.assertEqual(div(-13, -26), 2)
 
     def test_log_invalid_argument(self): # 1 assertion
         with self.assertRaises(ValueError):
