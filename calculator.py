@@ -1,3 +1,7 @@
+# https://github.com/Dominik-DiBenedetto/lab11-DD-GN
+# Partner 1: Gavin Nazal
+# Partner 2: Dominik DiBenedetto
+
 import math
 
 def square_root(a):
